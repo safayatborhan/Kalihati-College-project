@@ -1,0 +1,75 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="DataSetExpenseReport" targetNamespace="http://tempuri.org/DataSetExpenseReport.xsd" xmlns:mstns="http://tempuri.org/DataSetExpenseReport.xsd" xmlns="http://tempuri.org/DataSetExpenseReport.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections>
+          <Connection AppSettingsObjectName="Web.config" AppSettingsPropertyName="CategoryConnectionString" ConnectionStringObject="" IsAppSettingsProperty="true" Modifier="Assembly" Name="CategoryConnectionString (Web.config)" PropertyReference="AppConfig.System.Configuration.ConfigurationManager.0.ConnectionStrings.CategoryConnectionString.ConnectionString" Provider="System.Data.OleDb" />
+        </Connections>
+        <Tables>
+          <TableAdapter BaseClass="System.ComponentModel.Component" DataAccessorModifier="AutoLayout, AnsiClass, Class, Public" DataAccessorName="RandomExpenseTableTableAdapter" GeneratorDataComponentClassName="RandomExpenseTableTableAdapter" Name="RandomExpenseTable" UserDataComponentName="RandomExpenseTableTableAdapter">
+            <MainSource>
+              <DbSource ConnectionRef="CategoryConnectionString (Web.config)" DbObjectName="RandomExpenseTable" DbObjectType="Table" FillMethodModifier="Public" FillMethodName="Fill" GenerateMethods="Both" GenerateShortCommands="false" GeneratorGetMethodName="GetData" GeneratorSourceName="Fill" GetMethodModifier="Public" GetMethodName="GetData" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="false" UserGetMethodName="GetData" UserSourceName="Fill">
+                <SelectCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="true">
+                    <CommandText>SELECT        Purpose, Amount, Month1, Datee
+FROM            RandomExpenseTable</CommandText>
+                    <Parameters />
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+            </MainSource>
+            <Mappings>
+              <Mapping SourceColumn="Purpose" DataSetColumn="Purpose" />
+              <Mapping SourceColumn="Amount" DataSetColumn="Amount" />
+              <Mapping SourceColumn="Month1" DataSetColumn="Month1" />
+              <Mapping SourceColumn="Datee" DataSetColumn="Datee" />
+            </Mappings>
+            <Sources />
+          </TableAdapter>
+        </Tables>
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="DataSetExpenseReport" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:EnableTableAdapterManager="true" msprop:Generator_DataSetName="DataSetExpenseReport" msprop:Generator_UserDSName="DataSetExpenseReport">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="RandomExpenseTable" msprop:Generator_TableClassName="RandomExpenseTableDataTable" msprop:Generator_TableVarName="tableRandomExpenseTable" msprop:Generator_TablePropName="RandomExpenseTable" msprop:Generator_RowDeletingName="RandomExpenseTableRowDeleting" msprop:Generator_RowChangingName="RandomExpenseTableRowChanging" msprop:Generator_RowEvHandlerName="RandomExpenseTableRowChangeEventHandler" msprop:Generator_RowDeletedName="RandomExpenseTableRowDeleted" msprop:Generator_UserTableName="RandomExpenseTable" msprop:Generator_RowChangedName="RandomExpenseTableRowChanged" msprop:Generator_RowEvArgName="RandomExpenseTableRowChangeEvent" msprop:Generator_RowClassName="RandomExpenseTableRow">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="Purpose" msprop:Generator_ColumnVarNameInTable="columnPurpose" msprop:Generator_ColumnPropNameInRow="Purpose" msprop:Generator_ColumnPropNameInTable="PurposeColumn" msprop:Generator_UserColumnName="Purpose" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="255" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Amount" msprop:Generator_ColumnVarNameInTable="columnAmount" msprop:Generator_ColumnPropNameInRow="Amount" msprop:Generator_ColumnPropNameInTable="AmountColumn" msprop:Generator_UserColumnName="Amount" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="255" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Month1" msprop:Generator_ColumnVarNameInTable="columnMonth1" msprop:Generator_ColumnPropNameInRow="Month1" msprop:Generator_ColumnPropNameInTable="Month1Column" msprop:Generator_UserColumnName="Month1" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="255" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Datee" msprop:Generator_ColumnVarNameInTable="columnDatee" msprop:Generator_ColumnPropNameInRow="Datee" msprop:Generator_ColumnPropNameInTable="DateeColumn" msprop:Generator_UserColumnName="Datee" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="255" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

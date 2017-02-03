@@ -1,0 +1,21 @@
+*:not(body):not(htnl){
+	box-sizing:border-box;
+	border:1px dashed #000;
+}
+
+.columns{
+	min-height: 100px;
+}
+
+header.header_area{
+	margin-bottom: 20px;
+	padding: 20px;
+}
+
+nav{
+	margin-top: 20px;
+}
+
+.wrapper{
+	margin-bottom: 20px;
+}

@@ -1,0 +1,449 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Site.master.cs" Inherits="_4th_november_new_design_collegese.Site" %>
+
+<!DOCTYPE html>
+
+<%--<html xmlns="http://www.w3.org/1999/xhtml">--%>
+<html class="no-js" lang="en">
+  <head>
+    <!--Meta Tag-->
+    <meta charset="utf-8">
+    <meta name="viewport" content="initial-scale=1.0,user-scalable=no,maximum-scale=1">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="HandheldFriendly" content="True">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <!--Meta Tag-->
+
+    <title>Kalihati College</title>
+
+    <!--CSS Styesheets-->
+    <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="font-awesome/css/font-awesome.min.css" />
+    <link rel="stylesheet" type="text/css" media="all" href="css/color-theme.css" />
+    <link rel="stylesheet" type="text/css" media="all" href="css/webslidemenu.css" />
+    <link rel="stylesheet" type="text/css" media="all" href="css/demo.css" />
+    <link rel="stylesheet" href="css/foundation.css" />
+	<link rel="stylesheet" href="css/themes/default/default.css" type="text/css" media="screen" />
+    <link rel="stylesheet" href="css/themes/light/light.css" type="text/css" media="screen" />
+    <link rel="stylesheet" href="css/themes/dark/dark.css" type="text/css" media="screen" />
+    <link rel="stylesheet" href="css/themes/bar/bar.css" type="text/css" media="screen" />
+    <link rel="stylesheet" href="css/nivo-slider.css" type="text/css" media="screen" />
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+	<style>
+		.slider img{
+			height:450px;
+			width:100%;
+		}
+	</style>
+      <style>
+		.datalist{
+            text-decoration:none;
+		}
+	</style>
+  </head>
+  <body>
+
+      <form id="form1" runat="server">
+
+    <!--Web Application Starts From Here-->
+    <header id="header" class="header_area">
+      <div class="row">
+        <div class="logo-section">
+          <img src="http://placehold.it/80x80">
+        </div>
+        <div class="name-section">
+          <h1 class="college-name">কালিহাতী কলেজ</h1>
+          <h4 class="location-name">কালিহাতী,টাঙ্গাইল</h4>
+        </div>
+        </div>
+      <!-- end of row -->
+    </header>
+    <!-- end of header area -->
+
+    <nav class="large-12 columns navigation-area">
+      <div class="large-12 columns navigation">
+        <div class="wsmenucontainer clearfix">
+          <div class="wsmenucontent overlapblackbg"></div>
+          <div class="wsmenuexpandermain slideRight">
+            <a id="navToggle" class="animated-arrow slideLeft"><span></span></a>
+            <a href="#" class="smallogo"><h3 class="smallogotext">কালিহাতী কলেজ</h3></a>
+          </div>
+
+
+          <div class="header-nav">
+            <div class="wrapper clearfix">
+            </div>
+            <!--Main Menu HTML Code-->
+              <nav class="wsmenu tranbg slideLeft clearfix">
+                <ul class="mobile-sub wsmenu-list">
+                  <li><a href="#" class="active"><i class="fa fa-home"></i><span class="hometext">&nbsp;&nbsp; Home</span></a></li>
+                  <li><a href="Home.aspx">&nbsp;Home</a>
+                  </li>
+                  <li><a href="Home.aspx">&nbsp;About Us</a>
+                  </li>
+                  <li><a href="#">&nbsp;Admission</a>
+                    <ul class="wsmenu-submenu">
+                      <li><a href="OnlineAdmision.aspx"><i class="fa fa-angle-right"></i>HSC Admission</a></li>
+                      <li><a href="OnlineAdmision.aspx"><i class="fa fa-angle-right"></i>Degree</a></li>
+                    </ul>
+                  </li>
+                  
+                  <li><a href="#">&nbsp;Management</a>
+                    <ul class="wsmenu-submenu">
+                        <li><a href="TeacherAllInformation.aspx"><i class="fa fa-angle-right"></i>Teacher Information</a></li>
+                        <li><a href="SearchTeacher.aspx"><i class="fa fa-angle-right"></i>Teacher Record Search</a></li>
+                      <li><a href="SearchRecord.aspx"><i class="fa fa-angle-right"></i>Student Record</a></li>
+                      <li><a href="SearchStudent.aspx"><i class="fa fa-angle-right"></i>Search Student</a></li>
+                    </ul>
+                  </li>
+                  <li><a href="Gallery.aspx">&nbsp;Gallery</a>
+                  </li>
+                    <li><a href="AdminLogin.aspx">&nbsp;Admin</a>
+                    </li>
+                </ul>
+              </nav>
+            <!--Menu HTML Code--> 
+          </div>
+          </div>
+      </div>
+      <!-- end of navigation -->
+    </nav>
+    <!-- end of navigation area -->
+
+    <div class="wrapper-area">
+      <div class="wrapper">
+        <div class="row">
+          <div class="large-8 medium-12 columns slider-area">
+            <div class="large-12 columns slider">
+				<div class="slider-wrapper theme-default">
+					<div id="slider" class="nivoSlider slider">
+						<img src="slider/slider01.jpg" data-thumb="slider/slider01.jpg" alt="" />
+						<img src="slider/slider02.jpg" data-thumb="slider/slider02.jpg" alt="" />
+						<img src="slider/slider03.jpg" data-thumb="slider/slider03.jpg" alt="" data-transition="slideInLeft" />
+						<img src="slider/slider04.jpg" data-thumb="slider/slider04.jpg" alt="" />
+					</div>
+				</div>
+            </div>
+            <!-- end of slider -->
+          </div>
+          <!-- end of slider area -->
+          <div class="large-3 medium-12 columns head-message-area">
+            <div class="large-12 columns head-message">
+              <header class="topic-heading">
+                <hr class="heading-hr" />
+                <h4>অধ্যক্ষ্যের বাণী</h4>
+              </header>
+              <section class="topic-body">
+                <img alt="Principal image" src="Content/principal.jpg" style="border-style: none; border-color: inherit; border-width: 0px; margin: 0px 6px; padding: 4px; outline: 0px; font-size: 12.8012809753418px; vertical-align: baseline; float: left; background: transparent; margin-left: -5px; width: 200px; height: 200px;"/>
+                  <p>
+                      &nbsp;</p>
+              </section>
+            </div>
+            <!-- end of head message -->
+          &nbsp;&nbsp;&nbsp;
+              <asp:Label ID="Label7" runat="server"></asp:Label>
+              <br />
+              <p style="color:#000">
+                  নবীন ছাত্র-ছাত্রীবৃন্দ,
+                  <br />
+                  শিক্ষাজীবনের প্রথম ধাপ অতিক্রম করে ঐতিহ্যবাহী কালিহাতী কলেজে একদশ শ্রেনীতে ভর্তি হওয়ায় আন্তরিক অভিনন্দন। 
+                  জীবন গড়ার জন্য এইচএসসি পর্যায়ের এই সময়টুকু অনেক গুরুত্তপূর্ণ। নবীনদের আগমনে কলেজের সবুজ চত্তর হোক মুখরিত। আলোকিত জীবনের পথে তোমাদের যাত্রা শুভ হোক, মহান আল্লাহর কাছে এ প্রার্থনা করছি।
+                  <br />
+                  </p>
+                  <h4>মোঃ আঃ রহিম
+                  <br />
+                  অধ্যক্ষ
+                  <br />
+                  কালিহাতী কলেজ 
+                  </h4>
+          </div>
+          <!-- end of head message area -->
+        </div>
+        <!-- end of row -->
+
+        <div class="large-12 columns welcome_area">
+          <div class="row">
+            <marquee><h4 style="color:#003366;margin-top:20px;">কালিহাতী কলেজে আপনাকে স্বাগতম</h4></marquee>
+          </div>
+          <!-- end of rwow -->
+        </div>
+        <!-- end of welcome area -->
+
+        <div class="large-3 medium-4 columns content-area">
+          <div class="row">
+            <%--<ul class="side_nav nav nav-pills nav-stacked nav-sidebar">--%>
+              <%--<li class="active"><a href="">Section</a></li>--%>
+              <%--<li><a href="">Nav item again</a></li>
+              <li><a href="">One more nav</a></li>
+              <li><a href="">Another nav item</a></li>
+              <li><a href="">More navigation</a></li>--%>
+                <asp:DataList ID="DataList1" runat="server" CellPadding="4" Height="199px" Width="290px" ForeColor="#333333" Font-Bold="True">
+            <AlternatingItemStyle BackColor="White" />
+            <FooterStyle BackColor="#1C5E55" ForeColor="White" Font-Bold="True" />
+            <HeaderStyle BackColor="#1E2732" Font-Bold="True" ForeColor="White" Font-Names="Aharoni" Font-Size="X-Large" />
+                    <HeaderTemplate>
+                        সেকশান
+                    </HeaderTemplate>
+            <ItemStyle BackColor="#E3EAEB" />
+            <ItemTemplate>
+                <asp:LinkButton ID="LinkButton4" runat="server" Text='<%# Bind("CategoryName") %>' OnClick="LinkButton4_Click" CssClass="datalist"></asp:LinkButton>
+            </ItemTemplate>
+            <SelectedItemStyle BackColor="#C5BBAF" Font-Bold="True" ForeColor="#333333" />
+        </asp:DataList>
+            <%--</ul>--%>
+            <!-- end of single news area -->
+          </div>
+          <!-- end of row -->
+        </div>
+        <!-- end of content area -->
+        <div class="large-5 medium-8 columns content-area">
+          <div class="row">
+            <div class="large-12">
+              <header class="inverse-topic-heading">
+                <hr style="border-color:#003366;" class="inverse-heading-hr"/>
+                <h4 style="color:#272822;">শুভেচ্ছা বাণী</h4>
+              </header>
+                <p style="font-style: normal; font-variant: normal; font-weight: normal; letter-spacing: normal; orphans: auto; text-indent: 0px; text-transform: none; white-space: normal; widows: 1; word-spacing: 0px; -webkit-text-stroke-width: 0px; margin: 0px 0px 1.25em; padding: 0px; border: 0px; outline: 0px; font-size: 12.8013px; vertical-align: baseline; color: rgb(85, 85, 85); font-family: Arial, Helvetica, sans-serif; line-height: 23.0423px; text-align: justify; background: rgb(255, 255, 255);">
+                    <b style="margin: 0px; padding: 0px; color: rgb(102, 102, 102); font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 13px; font-style: normal; font-variant: normal; letter-spacing: normal; line-height: normal; orphans: auto; text-align: justify; text-indent: 0px; text-transform: none; white-space: normal; widows: 1; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(255, 255, 255);">
+                    <br style="margin: 0px; padding: 0px;" />
+                    </b></p>
+              <p style="color:#000">
+                  <h4 style="color:#00A8E5;">প্রতিষ্ঠাতার বাণী</h4>
+                  <img alt="Principal image" src="Content/chaiman.jpg" style="border-style: none; border-color: inherit; border-width: 0px; margin: 0px 6px; padding: 4px; outline: 0px; font-size: 12.8012809753418px; vertical-align: baseline; float: left; background: transparent; margin-left: -5px; width: 75px; height: 75px;"/>
+                  <br />
+                  <br />
+                  <br />
+                  <br />
+                  শিক্ষা ছাড়া জাতির অগ্রগতি প্রত্যাশা করা যায় না। শিক্ষিত সন্তান জাতির অমূল্য সম্পদ। অর্জিত জ্ঞান ও দক্ষতাকে কাজে লাগিয়ে তাদের পক্ষেই সম্ভব দেশ ও জাতির কল্যানে কিছু অবদান রাখা। তাই সুশিক্ষিত ও যোগ্য নাগরিক <asp:LinkButton ID="LinkButton10" runat="server" OnClick="LinkButton10_Click">আরো পড়ুন</asp:LinkButton>
+                  <br />
+                  <br />
+                  <h4 style="color:#00A8E5;">সভাপতির বাণী</h4>
+                  <img alt="Principal image" src="Content/Untitled.jpg" style="border-style: none; border-color: inherit; border-width: 0px; margin: 0px 6px; padding: 4px; outline: 0px; font-size: 12.8012809753418px; vertical-align: baseline; float: left; background: transparent; margin-left: -5px; width: 75px; height: 75px;"/>
+                  <br />
+                  <br />
+                  <br />
+                  <br />
+                  বর্তমান প্রতিযোগীতার যুগে পৃথিবীর অগ্রগতির সাথে তাল মিলিয়ে চলতে হলে নিজেকেও যোগ্য করে তুলতে হবে। আর নিজেকে যোগ্য করে তোলার ক্ষেত্রে একটি ভাল এবং আদর্শ শিক্ষা প্রতিষ্ঠানের কোন বিকল্প নেই। কালিহাতীর <asp:LinkButton ID="LinkButton11" runat="server" OnClick="LinkButton11_Click">আরো পড়ুন</asp:LinkButton>
+                  <br />
+                  <br />
+                  <h4 style="color:#00A8E5;">কলেজ মাতার বাণী</h4>
+                  <img alt="Principal image" src="Content/mata.jpg" style="border-style: none; border-color: inherit; border-width: 0px; margin: 0px 6px; padding: 4px; outline: 0px; font-size: 12.8012809753418px; vertical-align: baseline; float: left; background: transparent; margin-left: -5px; width: 75px; height: 75px;"/>
+                  <br />
+                  <br />
+                  <br />
+                  <br />
+                  শিক্ষা ছাড়া জীবনের বিকাশ অসম্ভব। শিক্ষার উদ্দেশ্য হচ্ছে ব্যাক্তি জীবনের সার্বিক মূল্যবোধ সৃষ্টি। একটি মানসম্পন্ন ও ভালো শিক্ষা প্রতিষ্ঠানই পারে সেই উদ্দেশ্য সফল করতে। কালিহাতী কলেজ তেমনি একটি শিক্ষা প্রতিষ্ঠান। যে প্রতিষ্ঠানটি <asp:LinkButton ID="LinkButton12" runat="server" OnClick="LinkButton12_Click">আরো পড়ুন</asp:LinkButton>
+              </p>
+                <%--<p style="color:#000">আমরা বিশ্বাস করি, আমরা অনেক দূর এগিয়ে যাব।</p>
+                <p style="color:#000">কালিহাতী ডিগ্রী কলেজ জাতীয় বিশবিদ্যালয়ের অধীনে।</p>
+                <p style="color:#000">অবস্থানঃ কালিহাতী, টাংগাইল।<br />
+                    শিক্ষার মানের দিক দিয়ে এই কলেজ টাংগাইলের অন্যতম সেরা কলেজে পরিনত হয়েছে।</p>
+                <p style="color:#000">সুন্দর মনোরম পরিবেশ শিক্ষার্থীদের উতকর্ষ বর্ধনে সহায়তা করে।</p>
+                <p style="color:#000">শিক্ষার পাশাপাশি খেলাধুলা ও অন্যান্য কার্যক্রমে এই কলেজের শিক্ষার্থীরা অনেক ভালো করছে।</p>
+                <p style="color:#000">&nbsp;</p>--%>
+            </div>
+          </div>
+          <!-- end of row -->
+        </div>
+        <!-- end of content area -->
+        <div class="large-3 columns sidebar-area">
+          <div class="row">
+            <div class="large-12 medium-12 columns notice-area">
+              <div class="large-12 columns notice">
+                <div class="row">
+                  <header class="topic-heading">
+                    <hr class="heading-hr"/>
+                    <h4>নোটিশ সমূহ</h4>
+                  </header>
+
+                  <div class="largre-12">
+                    <div class="notice-section row">
+                      <ul>
+                        <li><h6>
+                          <div class="icon">
+                            <i class="fa fa-file-o"></i>
+                          </div>
+                          <a class="notice-heading" href="">
+                          <%--<span class="notice-date">10/07/2015</span><br>--%>
+                              <asp:Label ID="Label4" runat="server" Text="Label"></asp:Label>
+                              <br />
+                          <asp:LinkButton ID="LinkButton1" runat="server" OnClick="LinkButton1_Click">ডাউনলোড করতে এখানে ক্লিক করুন</asp:LinkButton>.
+                          </a>
+                        </h6></li>
+                        <li><h6>
+                          <div class="icon">
+                            <i class="fa fa-file-o"></i>
+                          </div>
+                          <a class="notice-heading" href="">
+                          <%--<span class="notice-date">10/07/2015</span><br>--%>
+                              <asp:Label ID="Label5" runat="server" Text="Label"></asp:Label>
+                          <br />
+                              <asp:LinkButton ID="LinkButton2" runat="server" OnClick="LinkButton2_Click">ডাউনলোড করতে এখানে ক্লিক করুন</asp:LinkButton>
+                          </a>
+                        </h6></li>
+                        <li><h6>
+                          <div class="icon">
+                            <i class="fa fa-file-o"></i>
+                          </div>
+                          <a class="notice-heading" href="">
+                          <%--<span class="notice-date">10/07/2015</span><br>--%>
+                              <asp:Label ID="Label6" runat="server" Text="Label"></asp:Label>
+                          <br />
+                              <asp:LinkButton ID="LinkButton3" runat="server" OnClick="LinkButton3_Click">ডাউনলোড করতে এখানে ক্লিক করুন</asp:LinkButton>
+                          </a>
+                        </h6></li>
+                      </ul>
+                    </div>
+                  </div>
+                  <!-- notice section end here -->
+                </div>
+              </div>
+              <!-- end of notice -->
+
+              <div class="large-12 columns notice">
+                <div class="row">
+                  <header class="topic-heading">
+                    <hr class="heading-hr"/>
+                    <h4>কে কে অনলাইনে আছেন?</h4>
+                  </header>
+
+                  <div class="largre-12">
+                    <div class="notice-section row">
+                      <ul class="listitem">
+                        <li>এখন অনলাইনে আছেন&nbsp; </li>
+                          <asp:Label ID="LblCount" runat="server" Text="Label"></asp:Label>
+                        &nbsp;জন<li>সাইটটি ভিজিট করা হয়েছে&nbsp; </li>
+                          <asp:Label ID="visitNumber" runat="server" Text="Label"></asp:Label>
+                      &nbsp;বার</ul>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- end of notice area -->
+          </div>
+        </div>
+        <!-- end of sidebar area -->
+      </div>
+      <!-- end of wrapper -->
+    </div>
+    <!-- end of wrapper area -->
+
+    <footer class="footer-area">
+      <div class="footer large-12 columns">
+        <div class="row">
+          <div class="large-5 medium-6 columns contacts-area">
+            <div class="large-12 columns contacts">
+              <header class="inverse-topic-heading">
+                <hr class="inverse-heading-hr"/>
+                <h4>যোগাযোগের তথ্য</h4>
+              </header>
+              <section class="address">
+                <h5>ঠিকানাঃ</h5>
+                <p>
+                    কালিহাতী,টাংগাইল</p>
+                <h6>ইমেইলঃ</h6>
+                <p>
+                  info@kalihaticollege.edu.bd
+                </p>
+                <h6>ফোনঃ ০৯২২৭-৭৪০০১ (Principal)</h6>
+                <p>
+                    <br>
+                </p>
+              </section>
+            </div>
+            <!-- end of contacts -->
+          </div>
+          <!-- end of contact area-->
+
+
+          <div class="large-3 medium-6 columns social-links-area">
+            <div class="large-12 columns social-links">
+              <header class="inverse-topic-heading">
+                <hr class="inverse-heading-hr"/>
+                <h4>সোশ্যাল সাইট</h4>
+              </header>
+
+              <section>
+                <ul class="social-icon">
+                  <li><a href="" title="Facebook"><i class="fa fa-facebook-square"></i></a></li>
+                  <li><a href="" title="Twitter"><i class="fa fa-twitter-square"></i></a></li>
+                  <li><a href="" title="Youtube"><i class="fa fa-youtube-square"></i></a></li>
+                  <li><a href="" title="Google Plus"><i class="fa fa-google-plus-square"></i></a></li>
+                  <li><a href="" title="Flickr"><i class="fa fa-flickr"></i></a></li>
+                </ul>
+              </section>
+            </div>
+            <!-- end of social-links -->
+          </div>
+          <!-- end of social links area-->
+
+          <div class="large-3 medium-6 columns social-links-area">
+            <div class="large-12 columns social-links">
+              <header class="inverse-topic-heading">
+                <hr class="inverse-heading-hr"/>
+                <h4>তাৎক্ষনিক লিঙ্ক</h4>
+              </header>
+
+              <section>
+                <ul class="list-item">
+                  <li><a href=""><i class="fa fa-chevron-right"></i>ছাত্র সংগঠন</a></li>
+                  <li><a href="http://www.moedu.gov.bd/"><i class="fa fa-chevron-right"></i>শিক্ষা মন্ত্রনালয়</a></li>
+                  <li><a href="http://www.mof.gov.bd/en/"><i class="fa fa-chevron-right"></i>অর্থ মন্ত্রনালয়</a></li>
+                  <li><a href="http://www.srdi.gov.bd/"><i class="fa fa-chevron-right"></i>মৃত্তিকা সম্পদ উন্নয়ন ইনস্টিটিউট</a></li>
+                </ul>
+              </section>
+            </div>
+            <!-- end of social-links -->
+          </div>
+          <!-- end of social links area-->
+
+        </div>
+        <!-- end of row -->
+
+        <div class="row">
+          <div class="large-12 columns copyright-area">
+            <div class="large-12 columns copyright">
+              <center>
+                <h6>Copyright&copy; 2015 Try Catch Technology All rights Reserved</h6>
+              </center>
+            </div>
+            <!-- end of copyright -->
+          </div>
+          <!-- end of copyright area -->
+        </div>
+        <!-- end of row -->
+      </div>
+    </footer>
+    <!-- end of footer -->
+
+    <!--Web Application Ends Here-->
+
+    <!--JS Scripts-->    
+    <script src="js/vendor/jquery.js"></script>
+    <script src="js/foundation.min.js"></script>
+    <script type="text/javascript" src="bootstrap/js/bootstrap.min.js"></script>
+    <script type="text/javascript" language="javascript" src="js/webslidemenu.js"></script>
+
+    <script src="js/vendor/modernizr.js"></script>
+    <script src="js/jquery.counterup.min.js"></script>
+    <script src="http://cdnjs.cloudflare.com/ajax/libs/waypoints/2.0.3/waypoints.min.js"></script>
+    <script type="text/javascript" src="js/jquery.nivo.slider.js"></script>
+    <script>
+        jQuery(document).ready(function ($) {
+            $('.counter').counterUp({
+                delay: 20,
+                time: 1500
+            });
+        });
+    </script>
+    <script>
+        $(document).foundation();
+    </script>
+	<script type="text/javascript">
+    $(window).load(function() {
+        $('#slider').nivoSlider();
+    });
+    </script>
+      </form>
+  </body>
+</html>

@@ -1,0 +1,709 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+
+
+h1,h2,h3,h4,h5,h6{
+	margin: 0;
+	padding: 0;
+}
+
+p {
+	text-align: justify;
+	font-size: 14px;
+}
+
+li a {
+	color: #000000;
+}
+
+.fix {
+	overflow: hidden;
+}
+
+.left{
+	float: left;
+}
+
+.right{
+	float: right;
+}
+
+.view-more{
+	margin-top: -15px;
+	padding-top: 0px;
+}
+
+.read-more {
+	padding: 5px 10px; 
+	background:#272822; 
+	border-radius:5px; 
+	color: #fff;
+	font-size: 10px;
+}
+
+.default{
+	background: #272822;
+}
+
+.default:hover{
+	text-decoration: none;
+}
+
+.header_area{
+	background: #141A20;
+	height: 140px;
+}
+
+.smallogotext{
+	color:#FFFFFF;
+	text-decoration: none;
+}
+
+.name-section{
+	margin-top: 20px;
+}
+
+.logo-section{
+	float:left;
+	margin-right: 20px;
+	margin-top: 30px;
+}
+
+.college-name{
+	color:#FFFFFF;
+}
+
+.location-name{
+	color:#FFFFFF;
+}
+
+.navigation-area{
+	background: #1E2732;
+	min-height: 70px;
+	z-index: 999999;
+}
+
+.mobile-sub li:hover{
+	background:#002F5E;
+}
+
+.mobile-sub li ul li:hover{
+	background:#EEEEEE;
+}
+
+.banner img{
+	margin-top: 20px;
+}
+
+.navigation {
+}
+
+.nav-bar {
+	position: fixed;
+}
+
+.wrapper-area{
+	margin-top: 90px;
+}
+
+.wrapper {
+
+}
+
+.active {
+}
+
+
+/*slider section*/
+
+.slider-area {
+}
+
+.slider {
+}
+
+/*about section*/
+
+.about-school-area {
+}
+
+.about-school {
+}
+
+.topic-heading, .inverse-topic-heading {
+	border-top: #CCCCCC 2px solid;
+}
+
+.inverse-heading-hr {
+	border: #FFFFFF 2px solid;
+	background: #272822;
+	width: 50%;
+	margin-top: -3px;
+	margin-bottom: 5px;
+}
+
+.inverse-topic-heading h4 {
+	color: #FFFFFF;
+}
+
+.heading-hr {
+	border: #003366 2px solid;
+	background: #272822;
+	width: 50%;
+	margin-top: -3px;
+	margin-bottom: 5px; 
+}
+
+.topic-body p {
+	color: #000000;
+}
+
+
+/*message section*/
+
+.head-message-area {
+}
+
+.head-message {
+}
+
+/*content area*/
+
+.content-area {
+	margin-top: 20px;
+}
+
+/* news area */
+
+.single-news_area {
+
+}
+
+.single-news {
+	width:100%;
+}
+
+.news-content {
+	margin-top: -10px;
+}
+
+.news-post {
+	border-bottom: #CCCCCC 1px solid;
+	margin-top: 28px;
+}
+
+.news-post:last-child {
+	border-bottom: 0px;
+}
+
+.news-post a {
+	color: #000000;
+	text-decoration: none;
+}
+
+.news-post a:hover{
+	color: #3287D0;
+}
+
+.news-heading{
+	margin-top: -5px;
+}
+
+.news {
+	text-align: justify;
+	margin-top: -20px;
+	color: #000000;
+}
+
+.news a {
+	color: #fff;
+}
+
+.news a:hover {
+	background: #2285A2;
+	color: #FFFFFF;
+	transition: all 0.5s;
+}
+
+.news-section p {
+	color: #000000;
+}
+
+.date-section {
+	width: 120px;
+}
+
+.date-box {
+	height: 85px;
+	width: 85px;
+	margin-right: 12px; 
+	background: #272822;
+	margin-top: 2px;
+}
+
+.month {
+	width: 100%;
+	height: 50%;
+	background: #1A1B17;
+}
+
+.month h4 {
+	color: #FFFFFF;
+	text-align: center;
+	padding-top: 5px; 
+}
+
+.date {
+	width: 100%;
+	height: 50%;
+	background: #272822;
+}
+
+.date h4 {
+	color: #FFFFFF;
+	text-align: center;
+	padding-top: 5px; 
+}
+
+
+/*academic area*/
+
+.academic-area {
+	margin-top: 20px;
+}
+
+.academic {
+}
+
+/*admission section*/
+
+.admission-area {
+	margin-top: 15px;
+}
+
+.admission {
+	margin-top: 10px;
+}
+
+.apply {
+	margin-top: 15px;
+}
+
+.panel {
+	margin-top: 5px;
+}
+
+/*success story section*/
+
+.success-years {
+	margin-left: 0px;
+	margin-top: 15px;
+}
+
+.year {
+	background: #272822;
+	text-align: center;
+	color: #FFFFFF;
+	padding: 10px 0px;
+}
+
+.exam {
+	padding: 10px 10px 10px 5px;
+	background: #F7F3F3;
+	border-bottom: #ccc 1px solid;
+}
+
+.exam:last-child {
+	border-bottom: 0px;
+}
+
+.exam:hover {
+	background: #ddd;
+	transition: all 0.5s ease;
+}
+
+.exam a{
+	color: #272822;
+	padding: 10px;
+}
+
+.exam a:hover{
+	text-decoration: none;
+}
+
+.success-area {
+	margin-top: 20px;
+}
+
+.success {
+}
+
+/*teacher student section*/
+
+.teacher-student-section{
+	margin-top: 15px;
+}
+
+.ts-header {
+
+}
+
+.ts-body {
+
+}
+
+.t-body {
+	width:50%;
+	height: 200px; 
+	float: left; 
+	background:#272822;
+}
+
+.s-body {
+	width:50%; 
+	height: 200px; 
+	float: left; 
+	background:#1A1B17;
+}
+
+.t-count {
+	margin-top: 60px;
+}
+
+.t-count h1, .t-count h6 {
+	color: #FFFFFF;
+	text-align: center;
+}
+
+.s-count {
+	margin-top: 60px;
+}
+
+.s-count h1, .s-count h6 {
+	color:#FFFFFF;
+	text-align: center;
+}
+
+
+.total-teacher-student-area {
+	margin-top: 20px;
+}
+
+.total-teacher-student {
+}
+
+/*download section*/
+
+.download-section {
+	margin-top: 20px;
+}
+
+.download-section li {
+	margin-left: -15px;
+	padding: 2px 0px; 
+}
+
+.download-section li a {
+	color: #272822;
+}
+
+.download-section li a:hover {
+	text-decoration: none;
+	color: #2285A2;
+	transition: all 0.3s;
+}
+
+.download-section li a i{
+	margin-right: 5px;
+}
+
+
+.download-area {
+	margin-top: 20px;
+}
+
+.download {
+}
+
+.quick-links-area {
+	margin-top: 20px;
+}
+
+.quick-links {
+}
+
+.sidebar-area {
+	margin-top: 20px;
+}
+
+/*notice section*/
+
+.notice-area {
+}
+
+.notice {
+}
+
+.notice-section {
+	margin-top: 10px;
+}
+
+.notice-section ul {
+	padding-left: 10px;
+	padding-right: 10px;
+	padding-top: 10px;
+	margin-left: 0px;
+	width: 100%;
+}
+
+.notice-section ul li {
+	padding: 15px 0px 8px 0px;
+	border-bottom: #CCCCCC 1px solid; 
+}
+
+.notice-section ul li:last-child {
+	border: 0px;
+}
+
+
+.notice-section ul li:last-child {
+	padding-bottom: 0px;
+}
+
+.notice-section ul li i {
+
+}
+
+.notice-section ul li a {
+	text-decoration: none;
+	color: #272822;
+}
+
+.notice-section ul li a:hover{
+	color: #2285A2;
+	transition: all 0.3s;
+}
+
+.notice-date {
+	background: #FFFFFF;
+	padding: 2px 5px;
+	border: #272822 1px solid;
+	border-radius: 1px;
+	color: #000000;
+}
+
+.notice-heading {
+	text-align: justify;
+}
+
+.icon {
+	float: left;
+	height: 45px;
+	margin-right: 10px; 
+}
+
+.icon i {
+	color: #272822;
+	font-size: 50px;
+}
+
+/*events section*/
+
+.events-area {
+
+}
+
+.events {
+}
+
+.footer-area {
+}
+	
+
+.footer {
+	background: #141A20;
+	padding-top: 30px;
+}
+
+/* map section*/
+
+.maps-area {
+	margin-bottom: 20px; 
+}
+
+.map {
+	width: 100%;
+	margin-top: 20px;
+}
+
+/* contact area */
+
+.address {
+	margin-top: 20px;
+}
+
+.address h5,h6,p {
+	color: #FFFFFF;
+}
+
+
+.contacts-area {
+}
+
+.contacts {
+}
+
+
+/* social-icon */
+
+.social-icon {
+	margin-top: 20px;
+}
+
+.social-icon li {
+	 margin-left: -25px;
+	 float: left;
+ }
+
+.social-icon li a {
+	 color: #FFFFFF;
+	 margin-right: 20px;
+	 padding: 10px;
+
+ }
+
+ .social-icon li a:hover {
+ 	color: #2285A2;
+ 	transition: all 0.5s;
+ }
+
+ .social-icon li a i {
+	 font-size: 40px;
+	 margin-bottom: 30px; 
+ }
+
+.social-links-area {
+}
+
+.social-links {
+}
+
+.copyright-area {
+	border-top: #CCCCCC 1px solid;
+}
+
+.copyright {
+	padding: 20px 0px;
+}
+
+
+.side_nav{
+	margin: 0;
+	padding: 0;
+	background: #F4F4F2;
+	box-shadow: 1px 1px 2px #666;
+}
+
+.side_nav li{
+	border-bottom: #B4CCD4 1px dotted;
+}
+
+.nav_act{
+	background:#003366; 
+	color:#fff;
+	padding:15px;
+}
+
+.list-item{
+	margin: 0;
+	margin-top: 20px;
+	padding: 0;
+}
+
+.list-item li{
+	padding: 5px;
+}
+
+.list-item li a{
+	color:#fff;
+	text-decoration: none;
+}
+
+.list-item li a i{
+	margin-right: 5px;
+}
+
+.listitem{
+
+}
+
+.listitem li{
+	padding: 5px;
+	font-weight: bold;
+}
+
+.list-item li a:hover{
+	color:#2285A2;
+}
+
+/*mobile optimization*/
+
+@media screen and (min-width: 0px) and (max-width: 699px) {
+	#header{
+		display: none; 
+    }
+
+    .wrapper-area{
+    	margin-top: 0px;
+    	padding-top: 75px; 
+    }
+
+    .navigation-area{
+		min-height: 55px;
+	}
+
+	.slider img{
+		width:100%;
+		margin-bottom: 20px;
+	}
+}
+
+
+@media screen and (min-width: 699px) and (max-width: 780px) {
+
+	#header{
+		display: none; 
+    }
+
+    .wrapper-area{
+    	margin-top: 0px;
+    	padding-top: 75px; 
+    }
+
+    .navigation-area{
+		min-height: 55px;
+	}
+
+	.slider img{
+		width:100%;
+		margin-bottom: 20px;
+	}
+}
+
+@media screen and (min-width: 781px) and (max-width: 1024px) {
+
+	.slider img{
+		width:100%;
+		margin-bottom: 20px;
+	}
+}
+
+@media screen and (min-width: 1045px) and (max-width: 1200px) {
+	.news-content{
+		width:70%;
+	}
+}
+

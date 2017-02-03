@@ -1,0 +1,235 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="UserContent.master.cs" Inherits="_4th_november_new_design_collegese.UserContent" %>
+
+<!DOCTYPE html>
+
+<html class="no-js" lang="en">
+  <head>
+    <!--Meta Tag-->
+    <meta charset="utf-8">
+    <meta name="viewport" content="initial-scale=1.0,user-scalable=no,maximum-scale=1">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="HandheldFriendly" content="True">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <!--Meta Tag-->
+
+    <title>Kalihati College</title>
+
+    <!--CSS Styesheets-->
+    <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="font-awesome/css/font-awesome.min.css" />
+    <link rel="stylesheet" type="text/css" media="all" href="css/color-theme.css" />
+    <link rel="stylesheet" type="text/css" media="all" href="css/webslidemenu.css" />
+    <link rel="stylesheet" type="text/css" media="all" href="css/demo.css" />
+    <link rel="stylesheet" href="css/foundation.css" />
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+   <style>
+       .contentplceholder {
+            background:#FFFFFFFF;
+       }
+       .psdf {
+        fit-position:right;
+       }
+   </style>
+  </head>
+  <body>
+
+      <form id="form1" runat="server">
+
+    <!--Web Application Starts From Here-->
+    <header id="header" class="header_area">
+      <div class="row">
+        <div class="logo-section">
+          <img src="http://placehold.it/80x80">
+        </div>
+        <div class="name-section">
+          <h1 class="college-name">কালিহাতী কলেজ</h1>
+          <h4 class="location-name">কালিহাতী,টাঙ্গাইল</h4>
+        </div>
+      <!-- end of row -->
+    </header>
+    <!-- end of header area -->
+
+    <nav class="large-12 columns navigation-area">
+      <div class="large-12 columns navigation">
+        <div class="wsmenucontainer clearfix">
+          <div class="wsmenucontent overlapblackbg"></div>
+          <div class="wsmenuexpandermain slideRight">
+            <a id="navToggle" class="animated-arrow slideLeft"><span></span></a>
+            <a href="#" class="smallogo"><h3 class="smallogotext">কালিহাতী কলেজ</h3></a>
+          </div>
+
+
+          <div class="header-nav">
+            <div class="wrapper clearfix">
+            </div>
+            <!--Main Menu HTML Code-->
+              <nav class="wsmenu tranbg slideLeft clearfix">
+                <ul class="mobile-sub wsmenu-list">
+                  <li><a href="#" class="active"><i class="fa fa-home"></i><span class="hometext">&nbsp;&nbsp; Home</span></a></li>
+                  <li><a href="Home.aspx">&nbsp;Home</a>
+                  </li>
+                  <li><a href="Home.aspx">&nbsp;About Us</a>
+                  </li>
+                  <li><a href="#">&nbsp;Admission</a>
+                    <ul class="wsmenu-submenu">
+                        <%--<li><a href="SearchTeacher.aspx"><i class="fa fa-angle-right"></i>Teacher Record</a></li>--%>
+                      <li><a href="OnlineAdmision.aspx"><i class="fa fa-angle-right"></i>HSC Admission</a></li>
+                      <li><a href="OnlineAdmision.aspx"><i class="fa fa-angle-right"></i>Degree</a></li>
+                    </ul>
+                  </li>
+                  
+                  <li><a href="#">&nbsp;Management</a>
+                    <ul class="wsmenu-submenu">
+                        <li><a href="TeacherAllInformation.aspx"><i class="fa fa-angle-right"></i>Teacher Information</a></li>
+                        <li><a href="SearchTeacher.aspx"><i class="fa fa-angle-right"></i>Teacher Record Search</a></li>
+                        
+                        
+                      <li><a href="SearchRecord.aspx"><i class="fa fa-angle-right"></i>Student Record</a></li>
+                      <li><a href="SearchStudent.aspx"><i class="fa fa-angle-right"></i>Search Student</a></li>
+                    </ul>
+                  </li>
+                  <li><a href="Gallery.aspx">&nbsp;Gallery</a>
+                  </li>
+                    <li><a href="AdminLogin.aspx">&nbsp;Admin</a>
+                    </li>
+                </ul>
+              </nav>
+            <!--Menu HTML Code--> 
+          </div>
+          </div>
+      </div>
+      <!-- end of navigation -->
+    </nav>
+    <!-- end of navigation area -->
+
+    <div class="wrapper-area">
+      <div class="wrapper">
+        <div class="row">
+		
+		
+		
+		    <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+            </asp:ContentPlaceHolder>
+		
+		
+		
+    		</div>
+    		<!-- end of row -->
+      </div>
+      <!-- end of wrapper -->
+    </div>
+    <!-- end of wrapper area -->
+
+    <footer class="footer-area">
+      <div class="footer large-12 columns">
+        <div class="row">
+          <div class="large-6 medium-6 columns contacts-area">
+            <div class="large-12 columns contacts">
+              <header class="inverse-topic-heading">
+                <hr class="inverse-heading-hr"/>
+                <h4>যোগাযোগের তথ্য</h4>
+              </header>
+              <section class="address">
+                <h5>ঠিকানাঃ</h5>
+                <p>
+                    কালিহাতী,টাংগাইল</p>
+                <h6>ইমেইলঃ</h6>
+                <p>
+                  Admin@Mysite.com
+                </p>
+                <h6>ফোনঃ</h6>
+                <p>
+                    <br>
+                </p>
+              </section>
+            </div>
+            <!-- end of contacts -->
+          </div>
+          <!-- end of contact area-->
+
+
+          <div class="large-3 medium-6 columns social-links-area">
+            <div class="large-12 columns social-links">
+              <header class="inverse-topic-heading">
+                <hr class="inverse-heading-hr"/>
+                <h4>সোশ্যাল সাইট</h4>
+              </header>
+
+              <section>
+                <ul class="social-icon">
+                  <li><a href="" title="Facebook"><i class="fa fa-facebook-square"></i></a></li>
+                  <li><a href="" title="Twitter"><i class="fa fa-twitter-square"></i></a></li>
+                  <li><a href="" title="Youtube"><i class="fa fa-youtube-square"></i></a></li>
+                  <li><a href="" title="Google Plus"><i class="fa fa-google-plus-square"></i></a></li>
+                  <li><a href="" title="Flickr"><i class="fa fa-flickr"></i></a></li>
+                </ul>
+              </section>
+            </div>
+            <!-- end of social-links -->
+          </div>
+          <!-- end of social links area-->
+
+          <div class="large-3 medium-6 columns social-links-area">
+            <div class="large-12 columns social-links">
+              <header class="inverse-topic-heading">
+                <hr class="inverse-heading-hr"/>
+                <h4>তাৎক্ষনিক লিঙ্ক</h4>
+              </header>
+
+              <section>
+                <ul class="list-item">
+                  <li><a href=""><i class="fa fa-chevron-right"></i>ছাত্র সংগঠন</a></li>
+                  <li><a href="http://www.moedu.gov.bd/"><i class="fa fa-chevron-right"></i>শিক্ষা মন্ত্রনালয়</a></li>
+                  <li><a href="http://www.mof.gov.bd/en/"><i class="fa fa-chevron-right"></i>অর্থ মন্ত্রনালয়</a></li>
+                  <li><a href="http://www.srdi.gov.bd/"><i class="fa fa-chevron-right"></i>মৃত্তিকা সম্পদ উন্নয়ন ইনস্টিটিউট</a></li>
+                </ul>
+              </section>
+            </div>
+            <!-- end of social-links -->
+          </div>
+          <!-- end of social links area-->
+
+        </div>
+        <!-- end of row -->
+
+        <div class="row">
+          <div class="large-12 columns copyright-area">
+            <div class="large-12 columns copyright">
+              <center>
+                <h6>Copyright&copy; 2015 Try Catch Technology All rights Reserved</h6>
+              </center>
+            </div>
+            <!-- end of copyright -->
+          </div>
+          <!-- end of copyright area -->
+        </div>
+        <!-- end of row -->
+      </div>
+    </footer>
+    <!-- end of footer -->
+
+    <!--Web Application Ends Here-->
+
+    <!--JS Scripts-->    
+    <script src="js/vendor/jquery.js"></script>
+    <script src="js/foundation.min.js"></script>
+    <script type="text/javascript" src="bootstrap/js/bootstrap.min.js"></script>
+    <script type="text/javascript" language="javascript" src="js/webslidemenu.js"></script>
+
+    <script src="js/vendor/modernizr.js"></script>
+    <script src="js/jquery.counterup.min.js"></script>
+    <script src="http://cdnjs.cloudflare.com/ajax/libs/waypoints/2.0.3/waypoints.min.js"></script>
+    <script>
+        jQuery(document).ready(function ($) {
+            $('.counter').counterUp({
+                delay: 20,
+                time: 1500
+            });
+        });
+    </script>
+    <script>
+        $(document).foundation();
+    </script>
+      </form>
+  </body>
+</html>
